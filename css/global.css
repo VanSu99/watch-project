@@ -1,0 +1,41 @@
+.fl-left{ float: left;}
+.fl-right{ float: right;}
+.text-center{ text-align: center;}
+.text-justify{text-align: justify;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.wp-inner{ 
+    width: 1170px;
+    margin: 0px auto;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+input, textarea, select {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.only-pc {
+    display: block;
+}
+.only-sp {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .only-pc {
+        display: none!important;
+    }
+    .only-sp {
+        display: block!important;
+    }
+}
+
+.no-scroll {overflow: hidden;}
